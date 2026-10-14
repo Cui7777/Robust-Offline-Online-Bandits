@@ -1,0 +1,6 @@
+results/
+*.asv
+*.log
+*.aux
+*.synctex.gz
+data/*.csv
