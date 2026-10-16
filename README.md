@@ -20,7 +20,7 @@ run_robustness(10, 4000, 0.5);
 run_robustness(100, 20000, 0.1);
 ```
 
-Use either `gamma=0.1` or `0.5` for each configuration. The imbalance grid is `-1:0.2:3`; default repetitions are **200/500/1000/1000/1000** for UCB/VirUCB/RobVirUCB/EffVirUCB/HistoricalUCB. Full runs, especially K=100, can be slow. If graphics export crashes on Windows, start MATLAB with `-softwareopengl` (used for release validation). MAT/CSV data and EPS/PDF/PNG figures are written to `results/`.
+Use either `gamma=0.1` or `0.5` for each configuration. The imbalance grid is `-1:0.2:3`. Full runs, especially K=100, can be slow. If graphics export crashes on Windows, start MATLAB with `-softwareopengl` (used for release validation). MAT/CSV data and EPS/PDF/PNG figures are written to `results/`.
 
 ## Contents
 
